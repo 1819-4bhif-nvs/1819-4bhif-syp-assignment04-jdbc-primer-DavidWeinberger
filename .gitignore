@@ -1,16 +1,5 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
 
-# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
-!/.mvn/wrapper/maven-wrapper.jar
-# Created by https://www.gitignore.io/api/java,linux,windows,intellij,database
+# Created by https://www.gitignore.io/api/java,maven,linux,windows,intellij,database
 
 ### Database ###
 *.accdb
@@ -140,6 +129,18 @@ hs_err_pid*
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -166,4 +167,4 @@ $RECYCLE.BIN/
 *.lnk
 
 
-# End of https://www.gitignore.io/api/java,linux,windows,intellij,database
+# End of https://www.gitignore.io/api/java,maven,linux,windows,intellij,database
